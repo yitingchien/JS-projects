@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display-container">
+            <p id="display"></p>
+        </div>
+        <div class="container">
+            <div><input class="button" type="button" value="7" onclick="clickNumber(this)" /></div>
+            <div><input class="button" type="button" value="8" onclick="clickNumber(this)" /></div>
+            <div><input class="button" type="button" value="9" onclick="clickNumber(this)" /></div>
+            <div><input class="button ac" type="button" value="AC" onclick="clearNumber()" /></div>
+            <div><input class="button" type="button" value="4" onclick="clickNumber(this)" /></div>
+            <div><input class="button" type="button" value="5" onclick="clickNumber(this)" /></div>
+            <div><input class="button" type="button" value="6" onclick="clickNumber(this)" /></div>
+            <div><input class="button op" type="button" value="/" onclick="clickOperator(this)" /></div>
+            <div><input class="button" type="button" value="1" onclick="clickNumber(this)" /></div>
+            <div><input class="button" type="button" value="2" onclick="clickNumber(this)" /></div>
+            <div><input class="button" type="button" value="3" onclick="clickNumber(this)" /></div>
+            <div><input class="button op" type="button" value="*" onclick="clickOperator(this)" /></div>
+            <div><input class="button" type="button" value="0" onclick="clickNumber(this)" /></div>
+            <div><input class="button op" type="button" value="-" onclick="clickOperator(this)" /></div>
+            <div><input class="button op" type="button" value="+" onclick="clickOperator(this)" /></div>
+            <div><input class="button op" type="button" value="=" onclick="submit()" /></div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
